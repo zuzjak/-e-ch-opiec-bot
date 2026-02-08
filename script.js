@@ -28,3 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+function toggleCommand(header) {
+    const box = header.parentElement;
+    box.classList.toggle('active');
+}
